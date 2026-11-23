@@ -1,5 +1,4 @@
 
-
 name: Crear APK TrazoAR
 
 on:
@@ -49,3 +48,4 @@ jobs:
         with:
           name: TrazoAR-APK
           path: proyecto/**/build/outputs/apk/debug/*.apk
+concurrency: 
